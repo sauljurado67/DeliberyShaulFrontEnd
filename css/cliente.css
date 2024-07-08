@@ -1,0 +1,127 @@
+:root{
+    --bg-color:#1a1a3b;
+    --primary-color:#541379;
+    --secondary-color: #ffc098;
+    --third-color: #a152eb;
+    --third-bis-color: #db4648f2;
+    --bg-input-color: #4f31572c;    
+}
+body{
+    height: 50vh;
+    background: var(--third-bis-color);
+    background-size: cover;
+    background-position: center;
+}   
+.clientes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+form{
+    display: flex;
+    gap: 25px;
+}
+#h1{
+    margin: 30px;
+}
+h2{
+    margin: 20px;
+}
+#userForm input {
+    height: 50px;
+    width: 20vw;
+    background: rgba(255,255,255,0.1);
+    border: 2px solid white;
+    border-radius: 25px;
+    color: #030303;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 20px;
+}
+#userForm-select {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #912929;
+    background: rgba(255,255,255,0.1);
+    border: 2px solid white; 
+    border-radius: 25px;
+    margin: 20px 0px;
+}
+label {
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-weight: 800;
+}
+#btn-save-cliente{
+    width: 10rem;
+    height: 5vh;
+    border-radius: 25px;
+    display: block;
+    background-color: var(--bg-color);
+    color: var(--secondary-color);
+    font-size: clamp(0.5rem, 6vh, 1.5rem);
+    padding-top: 0px;
+    text-align: center;
+    box-shadow: 0px 0px 20px var(--third-color);
+    cursor: pointer;
+}
+
+#btn-save-cliente:hover{
+    color: #2a2a2a;
+    background-color: var(--third-color);
+}
+
+.form-select option{
+    color:#2a2a2a;
+}
+
+.subtitle{
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 20px var(--MainBackground);
+    font-size: 1.5vw;
+}
+
+#userlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.table {
+    margin: 30px 0px;
+    width: 70vw;
+    margin-bottom: 1rem;
+    color: var(--bg-color);
+    font-weight: 600;
+    vertical-align: top;
+    border-color: #dee2e6;
+    font-size: 1.5rem;
+}
+
+.table th,
+.table td {
+    padding: 8px; 
+    text-align: center;
+}
+.table th{
+    color:var(--primary-color);
+    border-bottom: 1px solid #ffffff;
+}
+.table td{
+    border-bottom: 1px solid #4f4f4f;
+}
+
+#list-div-clientes{
+    width: 100%;
+}

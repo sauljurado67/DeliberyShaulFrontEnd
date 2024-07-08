@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <script src="https://kit.fontawesome.com/c2cd97bceb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>DeliveryShaul</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="sli">
+            <a href="./index.html" class="enlace">
+                <h1>Delibery Shaul</h1>
+            </a>
+            <input type="checkbox" id="check" class="check">
+            <label for="check" class="checkbtn">
+                <span class="navicon"></span>
+            </label>
+            <ul class="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../page/Nosotros.html">Nosotros</a></li>
+                <li><a href="../page/Contacto.html">Contactos</a></li>
+                <li><a href="../page/About.html">About</a></li>
+                <li><a id="log" href="../page/Login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="datos">
+        <h2>La siguiente informacion ha sido enviada del formulario de registro:</h2><br>
+        <table style="font-size: 22px;">
+            <tr class="tr">
+                <th>FORMULARIO</th>
+                <th>DATOS</th>
+            </tr>
+        </table>
+    </section>
+    <script>
+        var args = location.search.substr(1).split('&');
+        console.log(args);
+        for (var i = 0; i < args.length; ++i) {
+            var parts = args[i].split('=');
+            if (parts != null) {
+                var field = parts[0];
+                var value = parts[1];
+                if (value == null) {
+                    value = "null"
+                }
+                else {
+                    value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+                }
+
+                document.writeln('<tr><td align="center">' + field + '</td>');
+                document.writeln('<td align="center">' + value + '</td></tr>');
+            }
+        }
+    </script>
+    <footer>
+        <section class="menuRS">
+            <h6>redes sociales</h6>
+            <ul class="menuRed">
+                <li style="--i:5;" data-icon="&#89;"><a href="https://www.youtube.com">Youtube</a></li>
+                <li style="--i:4;" data-icon="&#70;"><a href="https://www.facebook.com/?locale=es_LA#">Facebook</a></li>
+                <li style="--i:3;" data-icon="&#73;"><a href="https://www.instagram.com">Instagram</a></li>
+                <li style="--i:2;" data-icon="&#84;"><a href="https://www.tiktok.com">TikTok</a></li>
+                <li style="--i:1;" data-icon="&#76;"><a href="https://www.linkedin.com">Linkedin</a></li>
+            </ul>
+        </section>
+        <section class="yo">
+            <h6>creador</h6>
+            <p>🐍 Desarrollado por Saul Alberto Jurado 🐍</p>
+        </section>
+        <section class="menuf">
+            <h6>menu</h6>
+            <ul class="menufoot">
+                <li style="--i:5;" data-icon="&#127917;"><a href="../index.html">Home</a></li>
+                <li style="--i:4;" data-icon="&#128107;"><a href="./Nosotros.html">Nosotros</a></li>
+                <li style="--i:3;" data-icon="&#9993;"><a href="./Contacto.html">Contactos</a></li>
+                <li style="--i:2;" data-icon="&#128190;"><a href="./About.html">About</a></li>
+                <li style="--i:1;" data-icon="&#128273;"><a id="log3" href="./Login.html">Login</a></li>
+            </ul>
+        </section>
+
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

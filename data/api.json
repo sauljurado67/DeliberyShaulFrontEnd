@@ -1,0 +1,170 @@
+[
+    {
+        "precio": 2000,
+        "id": 1,
+        "codigo": "hamburguesas",
+        "nombre": "Hamburguesa Simple",
+        "imagen": "../img/HS.png"
+    },
+    {
+        "precio": 3000,
+        "id": 2,
+        "codigo": "hamburguesas",
+        "nombre": "Hamburguesa Doble",
+        "imagen": "../img/HD.png"
+    },
+    {
+        "precio": 4000,
+        "id": 3,
+        "codigo": "hamburguesas",
+        "nombre": "Hamburguesa Triple",
+        "imagen": "../img/HT.png"
+    },
+    {
+        "precio": 5000,
+        "id": 4,
+        "codigo": "hamburguesas",
+        "nombre": "Hamburguesa Tapa Arteria",
+        "imagen": "../img/HTA.png"
+    },
+    {
+        "precio": 4000,
+        "id": 5,
+        "codigo": "milanesas",
+        "nombre": "Milanesa de Carne Simple",
+        "imagen": "../img/MSC.png"
+    },
+    {
+        "precio": 5000,
+        "id": 6,
+        "codigo": "milanesas",
+        "nombre": "Milanesa de Carne Completa",
+        "imagen": "../img/MCV.png"
+    },
+    {
+        "precio": 4000,
+        "id": 7,
+        "codigo": "milanesas",
+        "nombre": "Milanesa de Pollo Simple",
+        "imagen": "../img/MPS.png"
+    },
+    {
+        "precio": 5000,
+        "id": 8,
+        "codigo": "milanesas",
+        "nombre": "Milanesa de Pollo Completa",
+        "imagen": "../img/MPC.png"
+    },
+    {
+        "precio": 5000,
+        "id": 9,
+        "codigo": "lomitos",
+        "nombre": "Lomito de Carne Simple",
+        "imagen": "../img/LSV.png"
+    },
+    {
+        "precio": 6000,
+        "id": 10,
+        "codigo": "lomitos",
+        "nombre": "Lomito de Carne Completo",
+        "imagen": "../img/LCV.png"
+    },
+    {
+        "precio": 6000,
+        "id": 11,
+        "codigo": "lomitos",
+        "nombre": "Lomito de Cerdo Simple",
+        "imagen": "../img/LSC.png"
+    },
+    {
+        "precio": 7000,
+        "id": 12,
+        "codigo": "lomitos",
+        "nombre": "Lomito de Cerdo Completo",
+        "imagen": "../img/LCC.png"
+    },
+    {
+        "precio": 3000,
+        "id": 13,
+        "codigo": "pizzas",
+        "nombre": "Pizza Especial",
+        "imagen": "../img/PS.png"
+    },
+    {
+        "precio": 4000,
+        "id": 14,
+        "codigo": "pizzas",
+        "nombre": "Pizza Calabresa",
+        "imagen": "../img/PC.png"
+    },
+    {
+        "precio": 5000,
+        "id": 15,
+        "codigo": "pizzas",
+        "nombre": "Pizza Fugazzeta",
+        "imagen": "../img/PF.png"
+    },
+    {
+        "precio": 6000,
+        "id": 16,
+        "codigo": "pizzas",
+        "nombre": "Pizza Campestre",
+        "imagen": "../img/PCA.png"
+    },
+    {
+        "precio": 4000,
+        "id": 17,
+        "codigo": "empanadas",
+        "nombre": "Empanadas de Pollo",
+        "imagen": "../img/EP.png"
+    },
+    {
+        "precio": 5000,
+        "id": 18,
+        "codigo": "empanadas",
+        "nombre": "Empanadas de Carne",
+        "imagen": "../img/EC.png"
+    },
+    {
+        "precio": 5000,
+        "id": 19,
+        "codigo": "empanadas",
+        "nombre": "Empanadas de Jamon y Queso",
+        "imagen": "../img/EJQ.png"
+    },
+    {
+        "precio": 4000,
+        "id": 20,
+        "codigo": "empanadas",
+        "nombre": "Empanadas Arabes",
+        "imagen": "../img/EA2.png"
+    },
+    {
+        "precio": 3000,
+        "id": 21,
+        "codigo": "papas",
+        "nombre": "Porción de Papas Fritas",
+        "imagen": "../img/f5.png"
+    },
+    {
+        "precio": 4000,
+        "id": 22,
+        "codigo": "papas",
+        "nombre": "Milapapa",
+        "imagen": "../img/MP.png"
+    },
+    {
+        "precio": 4000,
+        "id": 23,
+        "codigo": "papas",
+        "nombre": "Salchipapa",
+        "imagen": "../img/SP.png"
+    },
+    {
+        "precio": 4000,
+        "id": 24,
+        "codigo": "papas",
+        "nombre": "Albondipapa",
+        "imagen": "../img/AP.png"
+    }
+]
